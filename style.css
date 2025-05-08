@@ -1,0 +1,37 @@
+/*First Letter*/
+h1::first-letter{
+    font-size: 2em;
+    font-style: italic;;
+    color:rgb(34, 87, 55);
+}
+/*First Line*/
+p::first-line{
+    background-color: rgb(213, 255, 236);
+}
+/*Selection Highlight*/
+p::selection{
+    color: rgb(73, 255, 176);
+    background-color: ;
+}
+/*Before and After*/
+li::before{
+    content:"✅";
+}
+#apple::after{
+    content:"🍎";
+}
+#orange::after{
+    content:"🍊";
+}
+#banana::after{
+    content:"🍌";
+}
+/*List Marker*/
+li::marker{
+    content:"✅";
+}
+#footer{
+    margin: 0px;
+    text-align:center;
+    padding: 10px;
+}
